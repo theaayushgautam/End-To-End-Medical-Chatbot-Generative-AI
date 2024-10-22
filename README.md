@@ -201,6 +201,12 @@ host="0.0.0.0": The server will be accessible externally (on any IP).
 port=5000: Specifies that the app will run on port 5000.
 debug=True: Enables Flask's debugging mode, which provides detailed error messages and reloads the server on changes.
 
-
+### Key Technologies Used:
+Flask: For building the web server that handles the user interface and input.
+Hugging Face Embeddings: For converting text into vector embeddings.
+Pinecone: For storing and retrieving document embeddings based on semantic similarity.
+LangChain: For chaining together retrieval (document search) and language model (LLM) operations.
+OpenAI GPT Model: For generating answers based on the retrieved documents and user query.
+Chat UI: Likely implemented with a simple HTML form (via chat.html), allowing users to input queries and receive answers.
     
 
